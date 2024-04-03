@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Alata&display=swap');
+
+:root{
+  /*-------------------Paleta de Colores--------------------*/
+  --primary-color: #FBA834;
+  --secondary-color: #333A73 ;
+  --tertiary-color: #387ADF ;
+  --quaternary-color: #50C4ED ;
+
+  /*-------------------Padding botones----------------------*/
+  --high-button: 12px;
+  --broad-button: 24px;
+
+  /*----------------Tamaño de Tipografia--------------------*/
+  --h1-size: 47.78px ;
+  --h2-size: 39.81px;
+  --h3-size: 33.18px;
+  --h4-size: 27.65px;
+  --h5-size: 23.04px;
+  --h6-size: 19.2px;
+  --pL-size: 16px;
+  --pM-size: 13.33px;
+  --pS-size: 11.11px;
+}
+
+body{
+  font-family: "Alata", sans-serif;
+  background-color: #fcfcfc;  
+}
+
+/* .body-app{
+  background-color: #fcfcfc;  
+} */
+

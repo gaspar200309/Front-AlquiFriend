@@ -1,0 +1,20 @@
+.input-component{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+.input-component > input{
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 2px solid #ccc;
+}
+
+.required{
+    color: red;
+}
+.error-message{
+    font-size: var(--pM-size);
+    color: red;
+    margin-bottom: 8px;
+}
+

@@ -1,0 +1,117 @@
+/* ListFriend.css */
+
+.list-friend > h1{
+  text-align: center;
+}
+
+.lista {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 20px;
+justify-items: center;
+padding: 24px 48px;
+height: 70vh;
+}
+
+.card {
+  font-family: Alata;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px 18px 40% 18px;
+  background-color: #fff;
+  position: relative;
+  width: 280px;
+  height: 280px;
+}
+
+.top-card{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+  height: 84px;
+  border-radius: 8px 8px 0px 0px;
+}
+.card > img {
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  z-index: 999;
+}
+
+.card-texts{
+text-align: center;
+}
+
+/* .card > p {
+font-size: var(--pS-size);
+color: #666;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+} */
+
+.name-card{
+font-size: var(--h6-size);
+}
+
+.age-card{
+font-size: var(--pM-size);
+color: #00000093;
+}
+
+.subtitle-card{
+font-size: var(--pL-size);
+}
+
+.text-card{
+font-size: var(--pL-size);
+}
+.button-card { 
+position: absolute;
+width: 84.8%;
+text-align: center;
+bottom: 0;
+left: 0;
+padding: 16px 24px;
+background-color: var(--quaternary-color);
+color: #fff;
+border-radius: 0 0 8px 8px;
+}
+
+.button-card > a {
+text-decoration: none;
+color: #000;
+}
+
+
+.modalF{
+  position: relative;
+  height: 500px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

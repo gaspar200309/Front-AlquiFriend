@@ -1,0 +1,16 @@
+.secondary-button > button{
+    background-color: #fff;
+    padding: var(--high-button) var(--broad-button);
+    border-radius: 8px;
+    color: var(--secondary-color);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+    font-weight: 600;
+    line-height: 24px;
+    border: 2px solid var(--secondary-color);
+}
+
+.secondary-button > button:hover{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+

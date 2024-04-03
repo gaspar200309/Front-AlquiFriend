@@ -1,0 +1,91 @@
+.body-page{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+.form-body-container{
+    padding: 24px 48px;
+    width: 55%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.descripction{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.descripction > textarea{
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+.location {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.location > textarea{
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+.error-message{
+    font-size: var(--pM-size);
+    color: red;
+    margin-bottom: 8px;
+}
+
+
+.form-body-container > h3 {
+    font-size: var(--h3-size);
+    text-align: center;
+}
+
+.colums-inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el ancho de las columnas según el contenido */
+    gap: 16px; /* Espacio entre elementos */
+}
+
+.input-1c,
+.input-2c,
+.input-4c {
+    width: 100%;
+}
+
+.pais-select{
+    width: 100%;
+}
+.input-1c {
+    grid-column: span 1; /* Ocupa una columna completa */
+}
+
+.input-2c {
+    grid-column: span 2; /* Ocupa dos columnas */
+}
+
+.input-4c {
+    grid-column: span 4; /* Ocupa cuatro columnas */
+}
+
+.textAreaDescription {
+    width: 100%;
+    height: 100px; /* Ajusta la altura según sea necesario */
+}
+
+.textArealocation {
+    width: 100%;
+    height: 100px;
+}
+
+.buttons-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}

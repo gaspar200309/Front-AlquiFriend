@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Cambio de la fuente */
+    background-color: #f0f0f0; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px; /* margen para que separe del formulario */
+  }
+  
+  .title h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-frame {
+    background-color: #fff; 
+    width: 100%; 
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 150px; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    text-align: center; /* Centra todo el contenido */
+  }
+  
+  .form-row label {
+    display: block;
+    font-size: 16px;
+    color: #333; 
+  }
+  
+  .form-row input,
+  .form-row select,
+  .form-row textarea {
+    width: 100%; /* Ancho completo de los campos de entrada */
+    height: 40px;
+    padding: 10px; /* Aumento del espacio alrededor del texto */
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-row textarea {
+    height: 100px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button {
+    background-color: #FBA834; 
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc; 
+    color: #fff; 
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .column-left {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+  }

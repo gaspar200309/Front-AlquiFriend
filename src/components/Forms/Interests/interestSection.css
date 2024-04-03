@@ -1,0 +1,147 @@
+
+.interest-body{
+    display: grid;
+    grid-template-columns: 2fr 2fr;  
+    gap: 16px;
+}
+
+.col1, .col2{
+    width: 100%;
+}
+
+.input-n-button{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.plus-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 4px;
+    width: 10%;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    color: #fff;
+    font-size: larger;
+}
+
+.addInterest{
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: var(--pM-size);
+    font-family: Alata;
+}
+
+.inputInterests{
+    margin-top: 8px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    width: 90%;
+}
+
+.tags-grid{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.customerInteres{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    padding: 4px 16px;
+    background-color: var(--quaternary-color);
+    border-radius: 24px;
+}
+
+.delete-tag-button{
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 0px 8px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000; /* Asegura que el modal esté por encima del overlay */
+    width: 29%;
+    overflow: auto;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}   
+    
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    width: 400px;
+}
+
+.closeIcon{
+    font-size: 18px!important ;
+}
+ul {
+        list-style-type: none;
+        padding: 0;
+}
+    
+ul li {
+        cursor: pointer;
+}
+
+.tag-icon{
+    color: #000;
+    margin-right: 8px;
+}
+    
+.selected-interest {
+    background-color: gray; /* Cambia el fondo del interés seleccionado a gris */
+}
+/* ul li:hover {
+        background-color: red;
+}
+   */
+   .saveInterest {
+    background-color: var(--primary-color);
+    padding: var(--high-button) var(--broad-button);
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+    font-weight: 600;
+    line-height: 24px;
+    background: #FF9C11;
+   }
+
+   .titleI{
+    margin: 0;
+   }

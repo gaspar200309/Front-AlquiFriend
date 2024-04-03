@@ -1,0 +1,46 @@
+.selection-register-container{
+    display: grid;
+    place-items: center;
+    margin: 0px 40px;
+    font-family: Alata;
+}
+.selection-register-container h1 {
+    font-size: var(--h1-size);
+    text-align: start;
+}
+
+.selection-register-container p {
+    margin-top: 16px;
+    color: #737373;
+    font-size: larger;
+    text-align: center;
+}
+
+.register-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+
+.register-btn {
+    background-color: var(--tertiary-color);
+    border-radius: 8px;
+}
+
+.button-paragraph{
+    color: #fff!important;
+}
+
+.register-btn{
+    margin-top: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 24px;
+}
+.register-btn > img {
+    width: 160px;
+    height: auto;
+}
