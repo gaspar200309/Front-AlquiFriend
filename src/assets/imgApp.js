@@ -1,7 +1,9 @@
-import perfil from './img/perfil.jpg'
-import image from './img/image.png'
+import perfil from './img/perfil.jpg';
+import image from './img/image.png';
 
-export  default {
+const images = {
     "perfil": perfil,
     "image": image
-}
+};
+
+export default images;
