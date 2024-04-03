@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const registersApi = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "http://3.144.164.243:8000",
     responseType: 'json',
     withCredentials: true
 });
